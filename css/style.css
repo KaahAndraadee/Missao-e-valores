@@ -1,0 +1,264 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+h2{
+    text-align: center;
+   font-family: comfortaa Regular ;
+   color: white;
+   font-size: 40px;
+   padding: 30px;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+
+} 
+.txtensino{
+    border:solid 2px #ffffff;
+    padding: 30px;
+    margin:25px;
+    width: 20%;
+    height:20%;
+    border-radius: 5%;
+    background-color: #ffffff ;
+    font-size: 20px;
+    color: #0a2351;
+    font-family: comfortaa Regular ;
+}
+.ensinoordem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+.active{
+    background-color: #b69220;
+}
+.activeb a{
+    color:white;
+}
+header li:hover{
+    background-color: #b69220;
+    transition: 2s;
+}
+.logoheader img{
+    width: 316px;
+    height: 104px; 
+    margin-left: 10px;
+}
+ .listaheader a{
+    text-decoration: none;
+    color: #0a2351;
+    font-family: glacial indifferent bold;
+    font-size: 24px;
+    padding: 35px 25px;
+ }
+ .listaheader li {
+     margin-top: 15px;
+    padding: 24px  5px;  
+    list-style: none;
+    transition: 3s;
+ }
+ .listaheader ul{
+   
+     display: flex;
+     justify-content: center;
+     margin-top: 4x;
+ }
+
+ @font-face {
+     font-family: glacial indifferent bold;
+     src: url(../font/GlacialIndifference-Bold.otf);
+ }
+ @font-face {
+     font-family: comfortaa Regular;
+     src: url(../font/Comfortaa-Regular.ttf);
+ }
+#principal{
+    background-color: blue ;
+    background-size: 100%;
+   background-image: url("../img/fundo\ desfocado.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+
+}
+#principal img {
+    margin-top: 10px;
+}
+.imgcentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:45px;
+   
+}
+.formulario label{
+    display: flex;
+    flex-direction: column;
+    font-family: comfortaa Regular;
+    color:#fff;
+    margin-top: 15px;
+}
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+
+.devsfooter {
+width: 150px;
+height: 60px;
+}
+footer{
+    background-color: #b69220;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;      
+}
+.listafooter li{
+    list-style: none;
+    text-decoration: none;
+    color: #0a2351;
+    font-family: glacial indifferent bold;
+    font-size: 18px;
+    margin-left: 25px;
+    padding: 3px;
+}
+.logoscentrofooter img{
+    padding: 20px;
+}
+.devs {
+    padding: 34px;
+}
+.redesfooter{
+    display: flex;
+    align-items: center;
+    margin-right:17px;
+}
+.redesfooter img{
+    padding: 8px;
+    width:43px;
+    
+}
+.quemsosmos{
+    display: flex;
+    justify-content: space-around;
+}
+.quemimg{
+    padding: 80px;
+}
+.quemflex{
+    display: flex;
+    flex-direction: column;
+    /*espaçamento nas duas imagens*/
+}
+.quemflex img{
+    padding: 10px;
+}
+
+.nossamissao h1{
+    display: flex;
+    text-align: start;
+    justify-content: center;
+    color: #000000;
+}
+.nossamissao{
+    width: 144px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #a8a8a8;
+}
+.nossamissao p{
+    text-align: center;
+    color: #0a2351;
+}
+
+.valores {
+    width: 144px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #a8a8a8;
+}
+.valores h1{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+.valores li{
+    color: #0a2351;
+    margin-left: 20px;
+}
+#principal div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 520px;
+}
+
+@media only screen and (max-width: 700px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ensinoordem{
+        display: flex;
+        flex-direction: column;
+    }
+    .txtensino{
+        width:504px ;
+        height: 150px ;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .listafooter {
+        display:none;
+    }
+    .listabotao {
+        display:none;
+    }
+    .imgcentro img{
+    width:300px;
+    }
+    .logoheader img{
+        width: 236px;
+        height: 84px; 
+        margin-left: 5px;
+        padding-top:10px;
+    }
+    .listaheader {
+        display:none;
+    }
+    .txtensino{
+        width:270px;
+        height:130px;
+        font-size:14px;
+        padding:10px;
+    }
+    .ensinoimg img{
+        width:270px;
+        height:270px;
+    }
+
+}
+
+@media only screen and (min-width: 700px) {
+ .botao{
+     display: none;
+ }
+
+}
+
+
+
